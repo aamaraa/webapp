@@ -12,4 +12,4 @@ http://webappx.meteor.com
 
 https://github.com/boustanihani/webapp
 
-meteor build ~/workspace/webapp-builds --server webappx.meteor.com:80 --debug
+meteor build ~/swe/webapp-builds --server karim1.meteor.com:80 --debug

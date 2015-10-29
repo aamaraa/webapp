@@ -1,3 +1,12 @@
 
-
 wget http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz
+
+./android update sdk --no-ui --filter 1,2,5,52,53,54,55
+
+
+.bashrc =>
+*******************************************************************************
+export ANDROID_HOME=~/swe/android/android-sdk-linux
+export PATH=${PATH}:$ANDROID_HOME/tools
+export PATH=${PATH}:$ANDROID_HOME/platform-tools
+*******************************************************************************
